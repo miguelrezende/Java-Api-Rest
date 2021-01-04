@@ -1,11 +1,7 @@
 package com.clientes.apirest.models;
 
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
-import java.io.Serializable;
-import java.util.Date;
-import java.time.LocalDateTime;
 
 @Entity
 @Table(name="tb_usuarios")
